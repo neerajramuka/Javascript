@@ -16,7 +16,7 @@ User.prototype.compare = function(user) {
 }
 
 window.onload = function() {
-  var Neeraj = new User( "Neeraj" , 23);
-  var Nitesh = new User( "Nitesh" , 21);
+  var Neeraj = new User( "Neeraj", 23);
+  var Nitesh = new User( "Nitesh", 21);
   Neeraj.compare(Nitesh);
 }
